@@ -53,7 +53,7 @@ const products = [
         id: 7,
         name: "Cotton T-Shirt",
         price: 19.99,
-        image: "images/cotton tshirt.jpg",
+        image: "images/cotton-tshirt.jpg",
         description: "Comfortable cotton t-shirt for everyday wear.",
         category: "Clothing"
     },
@@ -61,7 +61,7 @@ const products = [
         id: 8,
         name: "Denim Jeans",
         price: 59.99,
-        image: "images/denim jeans.jpg",
+        image: "images/denim-jeans.jpg",
         description: "Classic denim jeans with perfect fit.",
         category: "Clothing"
     },
@@ -69,7 +69,7 @@ const products = [
         id: 9,
         name: "Winter Jacket",
         price: 89.99,
-        image: "images/winter jacket.png",
+        image: "images/winter-jacket.png",
         description: "Warm winter jacket for cold weather.",
         category: "Clothing"
     },
@@ -79,7 +79,7 @@ const products = [
         id: 10,
         name: "Running Shoes",
         price: 79.99,
-        image: "images/running shoes.png",
+        image: "images/running-shoes.png",
         description: "Comfortable running shoes for athletes.",
         category: "Footwear"
     },
@@ -97,7 +97,7 @@ const products = [
         id: 12,
         name: "Formal Shoes",
         price: 99.99,
-        image: "images/formal shoes.png",
+        image: "images/formal-shoes.png",
         description: "Elegant formal shoes for office wear.",
         category: "Footwear"
     },
@@ -107,7 +107,7 @@ const products = [
         id: 13,
         name: "Kids Toy Car",
         price: 14.99,
-        image: "images/toy car.png",
+        image: "images/toy-car.png",
         description: "Fun toy car for kids to play with.",
         category: "Kids"
     },
@@ -116,7 +116,7 @@ const products = [
         id: 14,
         name: "Children's Book",
         price: 9.99,
-        image: "images/childrens book.png",
+        image: "images/childrens-book.png",
         description: "Educational book for young children.",
         category: "Kids"
     },
@@ -125,7 +125,7 @@ const products = [
         id: 15,
         name: "Kids Backpack",
         price: 24.99,
-        image: "images/kids bagpack.png",
+        image: "images/kids-bagpack.png",
         description: "Colorful backpack for school kids.",
         category: "Kids"
     }
@@ -198,3 +198,4 @@ document.addEventListener('DOMContentLoaded', function () {
     displayFeaturedProducts();
     displayAllProducts();
 });
+
